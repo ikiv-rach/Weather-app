@@ -4,20 +4,30 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel= stylesheet href= "style.css">
+        <script src="app.js" defer></script>
         <title>Weather-app</title>
     </head>
     <body>
-        <div class="location">
-            <h1 class="location-timezone">Timezone</h1>
-            <p>Icon</p>
+        <div class="form">
+            <input type="text" placeholder="Enter city name" class="cityName">
+            <button type="submit" class="search">🔍</button>
         </div>
-        <div class="temperature">
-            <div class="degree-section">
-            <h2 class="temperature degree">34</h2>
-            <span>F</span>
+
+        <div class="displayWeather hide">
+                <h1 class="city"></h1>
+                <p class="temp item"></p> 
+            <div class="weatherinfo">
+        
+                <p>Humidity:</p>
+                <p class="humidity item"></p>
+            
+                <p>Wind:</p>
+                <p class="wind item"></p>
+            </div>
         </div>
-            <div class="temperature-description">cold</div>
-        </div>
+   
+
     </body>
     </html>
