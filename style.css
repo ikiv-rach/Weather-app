@@ -85,15 +85,15 @@ flex-direction: column;
     .temp {
         font-size: 1.5em;
         margin-top: 20%;
-        margin-right: 50%;
+        margin-right: 15%;
 
       }
       .weatherinfo {
         
-         height: 20%;
+         height: 23%;
          margin-top: -15%;
          width: 60%;
-         padding-left: 10%;
+         padding-left: 8%;
     
        
        }

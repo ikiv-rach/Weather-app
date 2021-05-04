@@ -18,7 +18,7 @@ e.search.addEventListener("click",(function(){
         return e.json()
     }
     ))
-.then((function(t){e.temp.textContent=t.main.temp+" C",
+.then((function(t){e.temp.textContent=t.main.temp+" °C",
         e.humidity.textContent=t.main.humidity+" %",
         e.wind.textContent=t.wind.speed+" km/h"})),
         e.name.textContent=e.cityname.value,
